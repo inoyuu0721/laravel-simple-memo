@@ -49,7 +49,7 @@ return [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
             'host' => $db['host'],
-            'port' => env('DB_PORT', '8889'),
+            'port' => env('DB_PORT', '3306'),
             'database' => ltrim($db["path"], '/'),
             'username' => $db['user'],
             'password' => $db['pass'],
