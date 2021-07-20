@@ -28,6 +28,7 @@ class AppServiceProvider extends ServiceProvider
         view()->composer('*', function ($view) {
 
             $memo_model = new Memo();
+
             $memos = $memo_model->getByMemo();
  
             $tags = Tag::where('user_id', '=', \Auth::id())
@@ -36,6 +37,7 @@ class AppServiceProvider extends ServiceProvider
                 ->get();
 
             $view->with('memos',$memos)->with('tags', $tags); 
+            //第一引数にはViewで使うときの命名、第二引数には渡したい変数or配列
         });
     }
 }
