@@ -58,7 +58,7 @@ class HomeController extends Controller
 
         });
 
-        return redirect( route('home'));
+        return redirect( route('index'));
     }
 
     public function edit($id)
