@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('javascript')
-<script src="/js/confirm.js?20210721"></script>
+<script src="/js/confirm.jsgit"></script>
 
 @endsection
 
