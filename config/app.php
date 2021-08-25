@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel-Sinple-Memo'),
+    'name' => env('APP_NAME', 'Laravel-Simple-Memo'),
 
     /*
     |--------------------------------------------------------------------------
