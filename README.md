@@ -1,6 +1,6 @@
 ## Simple-Memo
 
-**公開サイト**
+**公開サイト**<br>
 URL：http://stormy-badlands-95138.herokuapp.com/
 
 **主な機能**<br>
