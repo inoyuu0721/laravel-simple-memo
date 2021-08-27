@@ -1,22 +1,20 @@
-# NAME
-Simple-Memo
+## Simple-Memo
 
-# 主な機能
-
+**主な機能**
 シンプルながら、基本的な機能を網羅したメモアプリです。
 メモはクラウド上に保存され、端末を変更してもアプリ利用を継続することができます。
 
-*会員登録（メールアドレスとパスワードで登録）
-*ログイン・ログアウト
-*リレーショナル・データベースの基本機能（作成、編集、削除、一覧、詳細）
-*レスポンシブデザインによるスマートフォン対応
+* 会員登録（メールアドレスとパスワードで登録）
+* ログイン・ログアウト
+* リレーショナル・データベースの基本機能（作成、編集、削除、一覧、詳細）
+* レスポンシブデザインによるスマートフォン対応
 
-# 主に使用する技術
-*PHP
-*Laravel8
-*MySQL or MariaDB
-*MAMPによるローカル開発環境
-*JavaScript
+**主に使用する技術**
+* PHP
+* Laravel8
+* MySQL or MariaDB
+* MAMPによるローカル開発環境
+* JavaScript
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
